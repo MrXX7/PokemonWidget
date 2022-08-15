@@ -18,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		ADA9268328AAB0CC005E521F /* PokemonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonView.swift; sourceTree = "<group>"; };
+		ADA9268528AAB544005E521F /* PokemonWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PokemonWidget.entitlements; sourceTree = "<group>"; };
 		ADD4D6AA28AAA5E100F3FFAC /* PokemonWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokemonWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADD4D6AD28AAA5E100F3FFAC /* PokemonWidgetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonWidgetApp.swift; sourceTree = "<group>"; };
 		ADD4D6AF28AAA5E100F3FFAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +58,7 @@
 		ADD4D6AC28AAA5E100F3FFAC /* PokemonWidget */ = {
 			isa = PBXGroup;
 			children = (
+				ADA9268528AAB544005E521F /* PokemonWidget.entitlements */,
 				ADD4D6C028AAAF4A00F3FFAC /* App */,
 				ADD4D6BF28AAAF4400F3FFAC /* Model */,
 				ADD4D6BD28AAAF2700F3FFAC /* View */,
@@ -300,6 +302,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PokemonWidget/PokemonWidget.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PokemonWidget/Preview Content\"";
@@ -329,6 +332,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PokemonWidget/PokemonWidget.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PokemonWidget/Preview Content\"";
