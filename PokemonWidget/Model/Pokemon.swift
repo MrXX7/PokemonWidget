@@ -10,15 +10,15 @@ import Foundation
 struct Pokemon: Identifiable, Codable {
     let imageName: String
     let name: String
-    let tour: String
+    let kind: String
     
     var id: String {
         imageName
     }
 }
 
-let pikachu = Pokemon(imageName: "pikachu", name: "Pikachu", tour: "Mouse Pokemon")
-let charmander = Pokemon(imageName: "charmander", name: "Charmander", tour: "Lizard Pokemon")
-let clefairy = Pokemon(imageName: "clefairy", name: "Clefairy", tour: "Fairy Pokemon")
+let pikachu = Pokemon(imageName: "pikachu", name: "Pikachu", kind: "Mouse Pokemon")
+let charmander = Pokemon(imageName: "charmander", name: "Charmander", kind: "Lizard Pokemon")
+let clefairy = Pokemon(imageName: "clefairy", name: "Clefairy", kind: "Fairy Pokemon")
 
-
+let allPokemon = [pikachu, charmander, clefairy]

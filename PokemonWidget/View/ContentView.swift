@@ -9,7 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        SpecialImageView(image: Image("clefairy"))
+        VStack {
+            ForEach(allPokemon) { pokemon in
+                PokemonView(pokemon: pokemon)
+            }
+        }
     }
 }
 
